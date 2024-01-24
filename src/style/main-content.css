@@ -1,0 +1,85 @@
+/* HEADER */
+
+.main-container {
+    max-width: 80vw; /* VW = view width port , responsividade = 80% e do main e os outros 20% é do sidebar basicamente isso */
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+.header-navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+.header-navi .navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-navi .navi .arrow-left {
+    margin-right: 1.25rem;
+
+}
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.header-seacrh {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+.header-seacrh img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+.hearder-login {
+    display: flex;
+    align-items: center;
+}
+.header-seacrh input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #fff; /*Cor do textto de entrada*/
+    text-overflow: ellipsis; /* Trabalha junto com o overflow*/
+    overflow: hidden;
+    white-space: nowrap; /*Para nao quebrar a linha*/   
+    outline: none; /*Tirar a borda do texto do input, aquela borada que fica sem esse comando*/
+
+}
+.hearder-login .subscriber {
+    color: #a7a7a7;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border:none;
+}
+.hearder-login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 40px;
+
+}
