@@ -1,0 +1,55 @@
+@media  screen and (max-width: 1016px) {
+    /* Basicamente estou dizendo quando estiver nessa resolução faça isso. */
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr; /* faça duas colunas nessa resolução*/ 
+    }
+}
+@media screen and (max-width: 1015px){
+    .header-seacrh {
+        width: auto !important;
+        display: none;
+    }
+}
+@media screen  and (max-width: 1016px) and (max-width: 1140px) {
+    .header-seacrh {
+        width:  auto !important;
+        display: none;
+    }
+}
+@media screen and (max-width: 424px) {
+    .playlist {
+        display: none;
+    }
+    .playlist-container{
+        width: 100%;
+        height: auto;
+    }
+    .sidebar{
+        width: 342px;
+    }
+    .offer__list-item{
+        grid-template-columns: 1fr;
+    }
+    .offer__scroll-container {
+        overflow-y: visible;
+    }
+  
+}
+@media screen and (max-width: 375px) {
+    .playlist {
+        display: none;
+    }
+    .playlist-container{
+        width: 100%;
+        height: auto;
+    }
+    .sidebar{
+        width: 240px;
+    }
+    .offer__list-item{
+        grid-template-columns: 1fr;
+    }
+    .offer__scroll-container {
+        overflow-y: visible;
+    }
+}
