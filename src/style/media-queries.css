@@ -25,7 +25,7 @@
         height: auto;
     }
     .sidebar{
-        width: 442px;
+        width: 342px;
     }
     .offer__list-item{
         grid-template-columns: 1fr;
