@@ -21,7 +21,7 @@
         display: none;
     }
     .playlist-container{
-        width: 100%;
+        width: auto;
         height: auto;
     }
     .sidebar{
